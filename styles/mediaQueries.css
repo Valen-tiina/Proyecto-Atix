@@ -1,0 +1,337 @@
+/*MEDIA QUERIES*/
+@media(max-width:1279px){
+    .header-ppal{
+      padding: 10vh 18vh;
+    }
+    .header-divI{
+        padding: 0 3vh 0 0;
+    }
+    .header-divI h1{
+        font-size: 4.5vh;
+    }
+    .header-divI p {
+        font-size: 20px;
+      }
+      .header-divI button{
+        font-size: 18px;
+      }
+      .social-divII img {
+        width: 4vh;
+        padding: 2vh;
+      }
+      .titulo{
+        font-size: 25px;
+      }
+
+      /*DIV TABS*/
+      .tabs{
+        padding:7vh 10vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .tabs-divI{
+        align-self: center;
+        padding: 0 0 3vh 0;
+      }
+      .btn-tab{
+        margin: 0 1vh;
+      }
+      .tabs-divIII img{
+        width: 400px;
+        height: auto;
+      }
+
+      /*DIV SUBLIST*/
+      .sublist{
+        padding: 7vh 10vh;
+      }
+      .sublist img{
+        padding: 0 7vh 0 0;
+        height: min-content;
+        width: 40vh;
+      }
+      .sublist-derechoI img{
+        width: 50px;
+        height: min-content;
+        padding: 0 4vh 0 0 ;
+      }
+
+      /*standard*/
+      .standard{
+        padding: 7vh 10vh;
+      }
+      .standard img{
+        padding: 0  0 0 4vh;
+        height: min-content;
+        width: 40vh;
+      }
+
+      /*varios padding*/
+      .awesome, .pricing, .customers, .contact{
+        padding: 7vh 10vh
+      }
+
+      .pricing-caja{
+        background-color: white;
+        margin: 0 1vh;
+        width: 240px;
+      }
+      ul{
+        padding: 0 4vh;
+      }
+      li{
+        padding:2vh 0;
+      }
+      .msj p, .tabs-divII p, .sublist-derecho p, .standard-left p, .awesome p, .pricing p, .customers p, .contact p{
+        font-size: 17px;
+      }
+      .customer-caja{
+        margin: 0 1vh;
+      }
+      .msj {
+        width: 25vh;
+        height: max-content;
+        padding: 4vh;
+      }
+      .form input, textarea{
+        padding: 4vh 0 1vh 0;
+        margin: 1vh 4vh;
+      
+      }
+      .form-left, .form-right{
+        width: 50vh;
+        height: fit-content;
+      }
+  }
+
+  @media(max-width:920px){
+    nav {
+      padding: 2vh 3vh;
+    }
+    nav img {
+      width: 10vh;
+      height: max-content;
+    }
+    header {
+      height: 80vh;
+    }
+    
+    .header-ppal {
+      padding: 10vh 20vh;
+    }
+    
+    /*Lado izquierdo header*/
+    .header-divI {
+      padding: 0 10vh 0 0;
+    }
+    .header-divI img{
+      width: 140px
+    }
+
+    .header-divI h1 {
+      font-size: 4vh;
+    }
+    
+    .header-divI p {
+      font-size: 18px;
+    }
+    
+    .header-divI button {
+      font-size: 15px;
+    }
+    .header-divI img,
+.header-divI h1,
+hr,
+.header-divI p {
+  margin: 0 0 13px 0;
+}
+
+.header-divII h2 {
+  padding: 1vh;
+  font-size: 20px;
+  text-align: center;
+}
+.social-divII img {
+  width: 4vh;
+  padding: 2vh;
+}
+.titulo{
+  font-size: 21px;
+}
+.msj p, .tabs-divII p, .sublist-derecho p, .standard-left p, .awesome p, .pricing p, .customers p, .contact p, .social-divI p{
+  font-size: 15px;
+}
+.tabs-divIII img{
+  width: 300px;
+}
+
+.pricing-caja{
+  width: 220px;
+  margin: 0 2vh;
+
+}
+.msj {
+  background-image: url(../assets/images/textBubble.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30vh;
+  height: max-content;
+  padding: 4vh ;
+}
+.msj p{
+  color: rgb(131, 131, 131);
+  font-style: italic;
+  width: 180px;
+}
+  }
+
+
+  @media(max-width:768px){
+    nav {
+      padding: 3vh 5vh;
+    }
+    
+    nav button {
+      padding: 0 1vh;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    
+    .header-ppal {
+      flex-direction: column;
+      padding:4vh 10vh;
+    }
+    .header-divI{
+      width: 100%;
+      margin: 0 0 4vh 0;
+    }
+    header {
+      width: auto;
+      height: 120vh;
+    }
+    .sublist, .standard{
+      flex-direction: column;
+      padding:5vh 10vh;
+    }
+    .sublist img, .standard img{
+      width: 50vh;
+    }
+    .sublist-derechoI img{
+      width: 50px;
+    }
+    .abajo{
+      flex-direction: column;
+    }
+    .awesomeCaja, .pricing-caja, .customer-caja{
+      margin: 4vh 0;
+    }
+    .pricing-caja{
+      width: 300px;
+    }
+    .msj {
+      width: 32vh;
+      height: max-content;
+      padding: 4vh;
+    }
+    .msj p{
+      color: rgb(131, 131, 131);
+      font-style: italic;
+    }
+    .form-left, .form-right{
+      width: 40vh;
+      height: fit-content;
+    }
+  }
+
+  @media(max-width:480px){
+    nav {
+      padding: 3vh
+    }
+    nav img{
+      width:8vh;
+      height: min-content;
+    }
+    nav button {
+      padding: 0 1vh;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    nav ul{
+      padding: 0 0 0 3px;
+    }
+    .header-divI img{
+      width: 100px;
+    }
+    .header-divI h1{
+      font-size: 22px;
+    }
+    .header-divI p {
+      font-size: 15px;
+    }
+    .header-divII h2, .header-divII button {
+      font-size: 15px;
+    }
+    .header-divII{
+      width: 210px;
+    }
+    .titulo{
+      font-size: 17px;
+    }
+    .msj p, .tabs-divII p, .sublist-derecho p, .standard-left p, .awesome p, .pricing p, .customers p, .contact p, .social-divI p, .tabs-divII button, .stylish button, li, .contact button, .stylish p{
+      font-size: 12px;
+    }
+    .social-divII img {
+      width: 3vh;
+      padding: 1vh;
+    }
+    .socialMedia {
+      padding: 3vh;
+      font-size: 17px;
+    }
+    
+    .social-divI {
+      width: 42vh;
+    }
+    
+    .social-divI p {
+      color: rgb(131, 131, 131);
+    }
+  .btn-tab{
+    width: 60px;
+    font-size: 12px;
+  }
+  .tabs-divI{
+    margin: 0 1vh 0 0;
+  }
+  li{
+   font-size: 13px;
+  }
+  .awesome h2, .pricing h2, .customers h2, .contact h2, .stylish h2{
+    font-size: 25px;
+ 
+  }
+  .form{
+    flex-direction: column;
+  }
+  .pricing-caja{
+    width: 220px;
+  }
+  .arriba{
+    padding: 0;
+  }
+  .stylish{
+    padding: 8vh;
+  }
+  .stylish button{
+    padding: 8px 17px;
+  }
+  .tabs-divIII img, .sublist img, .standard img{
+    width: 200px;
+    height: auto;
+  }
+  .sublist-derechoI img{
+    width: 40px;
+    height: min-content;
+  }
+  }
