@@ -260,6 +260,9 @@ hr,
     nav ul{
       padding: 0 0 0 3px;
     }
+    header{
+      height: auto;
+    }
     .header-divI img{
       width: 100px;
     }

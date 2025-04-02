@@ -33,7 +33,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
-  height: 80vh;
+  height: auto;
 }
 
 .header-ppal {
